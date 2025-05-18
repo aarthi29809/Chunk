@@ -1,0 +1,51 @@
+export const theme = {
+  colors: {
+    primary: '#2563EB',
+    primaryLight: '#3B82F6',
+    primaryDark: '#1D4ED8',
+    secondary: '#0D9488',
+    secondaryLight: '#14B8A6',
+    secondaryDark: '#0F766E',
+    accent: '#F97316',
+    success: '#22C55E',
+    warning: '#FBBF24',
+    error: '#EF4444',
+    background: '#F9FAFB',
+    surface: '#FFFFFF',
+    text: '#111827',
+    textLight: '#4B5563',
+    textLighter: '#9CA3AF',
+    border: '#E5E7EB',
+    borderDark: '#D1D5DB',
+  },
+  shadows: {
+    sm: '0 1px 2px 0 rgba(0, 0, 0, 0.05)',
+    md: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+    lg: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+  },
+  breakpoints: {
+    sm: '640px',
+    md: '768px',
+    lg: '1024px',
+    xl: '1280px',
+  },
+  spacing: {
+    xs: '0.25rem',
+    sm: '0.5rem',
+    md: '1rem',
+    lg: '1.5rem',
+    xl: '2rem',
+    xxl: '3rem',
+  },
+  borderRadius: {
+    sm: '0.25rem',
+    md: '0.375rem',
+    lg: '0.5rem',
+    full: '9999px',
+  },
+  transitions: {
+    default: '0.3s ease',
+    fast: '0.15s ease',
+    slow: '0.5s ease',
+  }
+};
